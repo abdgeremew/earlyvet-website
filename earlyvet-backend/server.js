@@ -4,7 +4,7 @@ const mongoose = require('mongoose');
 const cors = require('cors');
 const bodyParser = require('body-parser');
 const nodemailer = require('nodemailer');
-const Contact = require('./models/contact'); // Import Contact model
+const Contact = require('./models/Contact'); // Import Contact model
 require('dotenv').config(); // Load environment variables
 
 // Initialize the app
